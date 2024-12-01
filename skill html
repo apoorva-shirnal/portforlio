@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=zz, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class=" sidebar">
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="skill.html">SKILLS</a></li>
+                    <li> <a href="project.html">PROJECT</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="mains">
+            <div class="intr">
+                <div class=" outer">
+                    <div class="inner">
+                        <div id="number">
+                            65% 
+                        </div>
+                    </div>
+                </div>
+                <div class="text"><strong><H1>HTML</H1></strong></div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+         <defs>
+            <linearGradient id="GradientColor">
+               <stop offset="0%" stop-color="#e91e63" />
+               <stop offset="100%" stop-color="#673ab7" />
+            </linearGradient>
+         </defs>
+         <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+ </svg>
+            </div>
+            </div>
+
+
+<div class="sec">
+       <div class=" oute">
+       <div class="inne">
+       <div id="test">
+         50%
+
+     </div>
+ </div>
+</div>
+<div class="text"><strong><H1>CSS</H1></strong></div>
+<div class="sv">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    <defs>
+       <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="#e91e63" />
+          <stop offset="100%" stop-color="#673ab7" />
+       </linearGradient>
+    </defs>
+    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+    <script>
+        let number=document.getElementById("number");
+        let counter = 0;
+        setInterval(() => {
+            if(counter==65){
+                clearInterval();
+            }else{
+                counter +=1;
+                number.innerHTML=counter + "%";
+            }
+        
+        },30);
+    </script>
+    <script>
+        let number1=document.getElementById("test");
+        let counter1 = 0;
+        setInterval(() => {
+            if(counter1==65){
+                clearInterval();
+            }else{
+                counter1 +=1;
+                number1.innerHTML=counter + "%";
+            }
+        
+        },30);
+    </script>
+    
+
+    
+    </body>
+    </html>
