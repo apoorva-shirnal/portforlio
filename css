@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.sidebar{
+    background-color: rgb(198, 209, 205);
+    
+    height: 100vw;
+    font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.sidebar nav{
+    
+    padding:60px;
+
+}
+.sidebar nav li {
+
+    list-style-type: none;
+    font-size: 15px;
+    padding: 25px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+  
+
+}
+.container{
+    display: flex;
+
+}
+
+.info{
+    background-color: rgba(248, 250, 253, 0.452);
+    height: 35vw;
+    width: 80vw;
+    margin-top: 100px;
+    display: flex;
+    
+    font-family: "Playwrite DE Grund", cursive;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+  
+ }
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-items: auto;
+    
+    
+
+}
+
+.hey{
+    font-size:29px;
+    color: rgb(104, 34, 91);
+}
+.name{
+    font-size:59px;
+    font-weight: bold;
+    
+}
+
+.about{
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(147, 25, 50);
+}
+
+.me{
+    margin-top: 10px;
+}
+
+.buttons button{
+    
+    padding: 9px 14px;
+    border-radius: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+
+    color:rgb(224, 230, 233);
+    background-color: rgb(60, 124, 140);
+
+}
+
+.icon {
+
+    display: flex;
+    justify-content: center;
+}
+.icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(189, 198, 199);
+    margin: 10px;
+    border-radius: 50%;
+   
+}
+.icon a{
+    
+    color: rgb(18, 18, 18);
+    opacity: 0.9;
+}
+.icon a :hover{
+    background-color: rgb(228, 232, 237);
+    transition: 0.5s;
+}
+
+
+.intro h2{
+    font-size: 50px;
+    font-style: oblique;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.intro p{
+    font-size: 25px;
+    padding-top: 30px;
+    color: rgb(22, 21, 21);
+}
+
+.intro h6{
+   text-align: right;
+   font-size: 30px;
+   padding-top: 20px;
+   font-style: italic;
+   text-decoration: underline;
+    
+
+}
+.img{
+    padding-top: 80px;
+    margin-top: 30px;
+    object-fit: cover;
+    padding-left: 100px;
+    
+    
+}
+
+.intro h4{
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.html{
+    font-size: 35px;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(14, 15, 15);
+   
+    
+}
+.css{
+    font-size: 35px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(14, 15, 15);
+   
+    
+}
+
+.Javascript{
+    font-size: 35px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(14, 15, 15);
+}
+   
+    
+
+.sql{
+    font-size: 35px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(14, 15, 15);
+   
+}
+.skills h4{
+    padding-bottom: 30px;
+}
+
+.intr {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 135px;
+    position: relative;
+
+
+}
+
+.outer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgb(226, 226, 227),
+               -6px -6px 10px -1px rgb(255,255,255,0.7);
+    
+}
+.inner{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgb(231, 229, 229),
+                 inset -4px 4px 6px -1px rgb(255,255 ,255,0.7),
+                 -0.5px -0.5px 0px rgb(255,255 ,255,0.7);
+                 0.5px 0.5px 0px rgb(0,0,0,0.15);
+                 0px 12px 10px  -10px rgb(0,0,0,0,0.7);
+
+}
+
+#number{
+    font-size: 25px;
+    color: #555;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+
+}
+
+
+
+svg{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset:165;
+    }
+}
+
+.sec {
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 200px;
+    position: relative;
+
+
+.oute{
+    width: 150px;
+    height: 150px;
+    padding-left: 30px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgb(219, 216, 216),
+               -6px -6px 10px -1px rgba(248, 247, 247, 0.7);
+    
+}
+.inne{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgb(179, 177, 177),
+                 inset -4px 4px 6px -1px rgba(152, 150, 150, 0.7),
+                 -0.5px -0.5px 0px rgba(74, 73, 73, 0.7);
+                 0.5px 0.5px 0px rgb(0,0,0,0.15);
+                 0px 12px 10px  -10px rgb(0,0,0,0,0.7);
+}
+
+#numbe{
+    font-size: 25px;
+    color: #555;
+    justify-items: center;
+}
+
+.sv svg{
+    top: 5;
+    left: 10px;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: anim 2s linear forwards;
+
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset:255;
+    }
+}
+*
+
+.sidebarGo{
+    transform: translate(-403px,0px);
+    position: absolute;
+}
+
+.hamp{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+@media (max-width: 1615px) {
+
+
+}
+/*.sidebar{
+    transform: translate(-403px,0px);
+    position: absolute;
+}*/
+}
