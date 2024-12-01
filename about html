@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=zz, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class=" sidebar">
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="skill.html">SKILLS</a></li>
+                    <li> <a href="project.html">PROJECT</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="mains">
+            <div class="intro">
+                <h2 style="color: darkblue;">ABOUT ME</h2>
+                <p>HELLO AND WELCOME</p>
+                <P> Hey I am Apoorva Shirnal from Solapur.Currently living in Pune and also studying is AES of Engineering last year Btech in Computer Science.
+                    Effective Student committed to learning and developing skills.
+                    Web Developer with passion for creating attractive and interactive a websites and with knowledge of HTML,
+                    CSS,Javascript and JQuery. Proven ability to quickly learn and apply new technologies. 
+                    Operates well in both individual and team capacities.Ready to grow with your company. 
+                    Aiming to leverage my abilities to successfully fill the [Front End Developer] role on your team.</p>
+                    <h6> -FRONT END DEVELOPER</h6>
+
+                    <section>
+                        <div class="img">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.NDukNylVm4dImeiZ4IEriQHaE7&pid=Api&P=0&h=220" height="350px" width="350px">
+                        
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.RANwIQilu3HxvuKHRIQadwHaE8&pid=Api&P=0&h=220" height="350px" width="350px">
+                        
+                            <img src="https://cdn.pixabay.com/photo/2017/08/01/00/17/laptop-2562211_1280.jpg" height="350px" width="350px">
+                        </div>
+                    </section>
+                    <div class="skills">
+                    <h4 style="color: darkblue;">MY SKILLS</h4>
+                    <div class="html">HTML
+                        <i class="fa-brands fa-html5"></i>
+                        <p style="color: white; padding-top:5px;">HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content."Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web. </p>
+                    </div>
+                    
+                    <div class="css">CSS
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p  style="color: white; padding-top: 5px;">Cascading Style Sheets (CSS) is used to format the layout of a webpage.With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+                        </div>
+                    <div class="Javascript">Javascript
+                        <i class="fa-brands fa-js"></i>
+                        <p style="color: white; background-color: rgb(0, 0, 0); padding-top: 5px;">JavaScript makes HTML pages more dynamic and interactive.he HTML script tag is used to define a client-side script (JavaScript).
+
+                            The script element either contains script statements, or it points to an external script file through the src attribute.
+                            
+                            Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+                            
+                            To select an HTML element, JavaScript most often uses the document.getElementById()</p>
+                        </div>
+                    <div class="sql">SQL
+                        <i class="fa-solid fa-database"></i>
+                        <p style="color: white; padding-top: 5px;">SQL is a standard language for storing, manipulating and retrieving data in databases.Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.SQL is easy to learn, there are no prerequisites to learn SQL.So, SQL is a standard database language used to access and manipulate data in databases. SQL stands for Structured Query Language.</p>
+                    </div>
+                 
+                    
+                    </div>
+                    </div>
+                    
+                    
+                
+                    
+
+                    </div>
+                   
+                    
+                    </div>
+                    
+                </div>
+    
+            </div>
+            
+        </div>
+    </div>
+    </body>
+    </html>
