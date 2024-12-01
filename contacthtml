@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=zz, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    
+<body>
+    <div class="container">
+    <div class=" sidebar">
+        
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="skill.html">SKILLS</a></li>
+                <li> <a href="project.html">PROJECT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="inform">
+        <div class="contact">
+            <h1 style="padding-left: 400px; padding-bottom: 100px;">CONTACT US</h1>
+            <br>
+        </div>
+        <div class="containers">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="text">
+                        <h1 style="padding-bottom: 5px; font-size: 30px;">ADDRESS</h1>
+                        <p style="font-size: 23px; padding-bottom: 55px;">Sarswavati Sadan,Perugate Police Chowki,Sadashev Peth,Pune </p>   
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h1 style="font-size: 30px; padding-bottom: 5px;">EMAIL</h1>
+                        <p style="font-size: 23px; padding-bottom: 55px;">apurvashirnal@gmail.com</p>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h1 style="padding-bottom: 5px; font-size: 30px;">PHONE</h1>
+                        <p style="font-size: 23px;">942091864</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+    </div>
+    </body>
+    </html>
